@@ -1,0 +1,16 @@
+{"level":"info","service":"user-service"}
+{"level":"info","message":{"data":{"countries":["India","USA"]},"type":"success"},"service":"user-service"}
+{"level":"info","message":{"country":"India"},"service":"user-service"}
+{"level":"info","message":{"data":{"states":["Gujarat","Maharashtra"]},"type":"success"},"service":"user-service"}
+{"level":"info","message":{"country":"India","state":"Gujarat"},"service":"user-service"}
+{"level":"info","message":{"data":{"cities":["Ahmedabad","Porbandar","Jamnagar"]},"type":"success"},"service":"user-service"}
+{"level":"info","message":{"country":"India"},"service":"user-service"}
+{"level":"info","message":{"data":{"states":["Gujarat","Maharashtra"]},"type":"success"},"service":"user-service"}
+{"level":"info","message":{"country":"India","state":"Gujarat"},"service":"user-service"}
+{"level":"info","message":{"data":{"cities":["Ahmedabad","Porbandar","Jamnagar"]},"type":"success"},"service":"user-service"}
+{"level":"info","message":{"country":"USA"},"service":"user-service"}
+{"level":"info","message":{"data":{"states":["California","Texas"]},"type":"success"},"service":"user-service"}
+{"level":"info","message":{"country":"USA","state":"California"},"service":"user-service"}
+{"level":"info","message":{"data":{"cities":["Bakersfield","Calexico","Chico"]},"type":"success"},"service":"user-service"}
+{"level":"info","service":"user-service"}
+{"level":"info","message":{"data":{"countries":["India","USA"]},"type":"success"},"service":"user-service"}

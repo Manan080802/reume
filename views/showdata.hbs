@@ -1,0 +1,21 @@
+<h1>Show Data</h1>
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Filename</th>
+        <th>city</th>
+        <th>State</th>
+        <th>Country</th>
+    </tr>
+    {{#each datas}}
+    <tr>
+        <td>{{this.name}}</td>
+        <td>  <a href="./{{../filepath.filepath}}/{{this.file}}">{{this.file}}</a> </td>
+        <td>{{this.city}}</td>
+        <td>{{this.state}}</td>
+        <td>{{this.country}}</td>
+   
+    </tr>
+   
+    {{/each}}
+</table>

@@ -1,0 +1,53 @@
+<div class="container mt-5">
+  <div id="message"></div>
+  <br>
+  <h1>Add Data</h1>
+  <form id="formData">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Name</label>
+      <input type="text" class="form-control" id="name" name="name" aria-describedby="name" placeholder="Enter name"
+        required>
+      {{!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      --}}
+    </div>
+    <div class="mb-3">
+      <label for="formFile" class="form-label">upload resume</label>
+      <input class="form-control" type="file" id="formFile" name="resume"
+        accept="image/png, image/jpeg ,.doc ,.pdf ,image/jpg" required>
+      <label for="">Select Country</label>
+      <select class="form-select" name="country" id="countryData" aria-label="Default select example">
+        <option selected value="Select Country">Select Country</option>
+
+        {{#countryList}}
+        <option value="{{this}}">{{this}}</option>
+
+        {{/countryList}}
+      </select>
+      <label for="">Select State</label>
+      <select class="form-select" name="state" id="states" disabled aria-label="Default select example">
+        <option selected value="Select State">Select State</option>
+      </select>
+      <label for="">Select city</label>
+      <select class="form-select" name="city" id="cities" disabled aria-label="Default select example">
+        <option selected value="Select City">Select city</option>
+      </select>
+    </div>
+
+
+    <div class="d-grid gap-2">
+      <button class="btn btn-primary" type="submit">Add Data</button>
+      <a href="/showdata" class="btn btn-info">Show data</a>
+
+    </div>
+
+    <br>
+
+
+    {{#section 'script'}}
+    <script src="../javascripts/index.js"></script>
+  
+    <script>
+      new buyerEventHandler()
+    </script>
+
+    {{/section}}
